@@ -1,0 +1,102 @@
+
+ #a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9,#a10,#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10
+{
+    margin: 16px; 
+    font-weight: bold;
+    border: 1px #00000003;
+    border-radius: 3px;
+    background-color: blueviolet;
+    color: white;
+     width: 55px;
+    padding: 5px 20px;
+}
+
+ #c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9,#c10
+{
+    margin: 16px; 
+    font-weight: bold;
+    border-radius: 3px;
+    border: 3px solid grey;
+    color: black;
+     width: 100px;
+    padding: 5px 20px;
+}
+  
+  #op1,#op2,#op3,#op4,#op5,#op6,#op7,#op8,#op9,#op10
+{
+    font-weight: bold;
+    color: black;
+    margin: 13px;
+}
+  #d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9,#d10
+{
+    font-weight: bold;
+    color: black;
+    margin: 13px;
+}
+  p
+{
+    margin: 20px;
+    color: black;
+    font-weight: bold;
+}
+  .navbar
+{
+    padding: 20px 20px;
+    font-weight: bold;
+    background-color: rgb(86, 90, 88);
+}
+a{
+  color: black;
+}
+
+.dropdown-content{
+    display: inline;
+    margin: 10px;
+    background-color: transparent;
+  border:none
+}
+
+.mybutton{
+    width: 12%;
+    border-radius: 8px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+/* Style the buttons */
+.bton {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .bton:hover {
+  background-color: #666;
+  color: white;
+}
+
+.setwidth{
+    width: 100px;
+}
+
+.navbar .offcanvas {
+    width: 70%;
+}
+.tagline{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  margin-inline-start: 80px;
+}
+.navbar .container-fluid{
+  padding:0
+}
+
+#mydiv table tr td{
+    display: inline-block ;
+    
+}

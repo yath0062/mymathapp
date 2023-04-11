@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/> 
+     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+<title>Math Play</title>
+</head> 
+
+<body onload="initialize('add')">
+
+
+  <div class="navbar">
+    <div class="container-fluid">
+      <img src="img/logo.png" width="65px" height="50px">
+      <span class="tagline">Math Play</span>
+      <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <i class="material-icons mt-1 text-white ">&#xe8b8;</i>
+      </button>
+    </div>
+
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-RightLabel" id="offcanvasRightLabel">Settings</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div class="dropdown-content">
+    <input type="radio" class="dropdown-content active" name="level" id="easy"  checked onclick="initialize('')" value=easy href="#"></input>
+    <label for="easy"> Easy</label><br/>
+     <input type="radio" class="dropdown-content active" name="level" id ="medium"  onclick="initialize('')" value=medium href="#"></input>
+     <label for="medium"> Medium</label><br/>
+      <input type="radio" class="dropdown-content active" name="level"  id="hard" onclick="initialize('')" value=hard  href="#"></input>
+      <label for="hard"> Hard</label>
+      </div>
+
+
+  </div>
+</div>
+<br/>
+
+ <div id="controlButtons" class="text-center sticky-top bg-white">
+  <p id="answer" ></p>
+<button type="button" class="bton active mybutton my-2"name="operator"  value="add" onclick="initialize('add')"> + </button>
+<button type="button" class="bton mybutton my-2"name="operator"  value="subtract" onclick="initialize('subtract')"> - </button>
+<button type="button" class="bton mybutton my-2"name="operator"  value="multiply" onclick="initialize('multiply')"> x </button>
+<button type="button" class="bton mybutton my-2"name="operator"  value="divide" onclick="initialize('divide')"> / </button>
+<br/><br/>
+<hr>
+</div>
+
+<br/><br/>
+<div class="container pb-3">
+<div id="mydiv" class="table-responsive">
+</div>
+</div>
+
+<hr>
+<div id="number">
+</div>
+
+<br/><br/>
+<div class="text-center fixed-bottom bg-white">
+ <button type="button" class="btn btn-secondary mt-1" onclick="output()">Submit</button>
+
+
+</div>
+
+
+</body>
+</html>
